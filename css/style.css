@@ -374,6 +374,115 @@ header{
     }
     
 }
+.main-chapter-boxs{
+    background-color: #F4F8FF;
+    margin-top: 100px;
+}
+.main-chapter-title{
+    color: #1B3764;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+}
+.main-chapter-border{
+    width: 50px;
+    border: 3px solid #FFCA42;
+    margin: 20px auto 20px auto;
+}
+.main-chapter-cart{
+    width: 570px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 40px;
+}
+.main-chapter-cart2{
+    width: 570px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 40px;
+}
+.main-chapter-cart3{
+    width: 570px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 40px;
+}
+.main-chapter-cart4{
+    width: 570px;
+    height: 250px;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 40px;
+}
+.main-chapter-about-cart{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main-chapter-about-point{
+    width: 15px;
+    height: 15px;
+}
+.main-chapter-about-cart2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main-chapter-about-box{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.main-chapter-about-cart-title,.main-chapter-about-cart-title2{
+    font-size: 22px;
+}
+.main-chapter-about-cart-desc,.main-chapter-about-cart-desc2{
+    font-size: 16;
+    margin-top: 3px;
+}
+.main-chapter-title2{
+    color: #1B3764;
+    font-size: 24px;
+    font-weight: 700;
+}
+.main-chapter-desc{
+    color: #969AA0;
+    padding: 20px 0px;
+    width: 424px;
+}
+.main-chapter-carts{
+    display: grid;
+    grid-template-columns: repeat(2,600px);
+    justify-content: center;
+}
+.main-chapter-btn{
+    width: 400px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCA42;
+    color: #1B3764;
+    font-weight: 700;
+    font-size: 19px;
+    margin: auto;
+    margin-top: 70px;
+}
+.main-chapter-about-title-desc{
+    margin-top: 30px;
+    width: 308px;
+    color: #969AA0;
+    font-weight: 400;
+    span{
+        color: #1B3764;
+        font-weight: 700;
+    }
+    margin-inline: auto;
+}
 @media (max-width:576px) {
     .container{
         max-width: 100%;
